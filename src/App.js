@@ -1,18 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Menu from "./menu";
-import Main from "./menu";
+import './style.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <header className="App-header">
           <Menu/>
       </header>
-        <Main></Main>
+        <main>
+            <h1>Welcome to this web page</h1>
+        </main>
 
-        <footer className='App-footer'></footer>
-    </div>
+        <footer className='App-footer'>
+            <a href='/about'>About</a>
+        </footer>
+    </>
   );
 }
 
